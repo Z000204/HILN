@@ -1,4 +1,4 @@
 import numpy as np
 
-value = np.load('GSCHMIR.npz')
+value = np.load('HILNMIR.npz')
 print(value['qul'].shape)
