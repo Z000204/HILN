@@ -15,7 +15,7 @@ if DATASET == 'WIKI':
     LABEL_DIR = '/media/qd/copy/zyc/wiki_top10cats/wikipedia_dataset/raw_features.mat'
     TRAIN_LABEL = '/media/qd/copy/zyc/wiki_top10cats/wikipedia_dataset/trainset_txt_img_cat.list'
     TEST_LABEL = '/media/qd/copy/zyc/wiki_top10cats/wikipedia_dataset/testset_txt_img_cat.list'
-    # loss = 1 * loss1 + 1 * loss2 + 1 * loss3 + 1 * loss4 + 1 * loss5 + 1 * loss6 + 2 * loss7 + 0.1 * loss31 + 0.1 * loss32
+   
     NUM_EPOCH = 500
     LR_IMG = 0.005
     LR_TXT = 0.005
@@ -33,14 +33,14 @@ if DATASET == 'MIRFlickr':
     LR_TXT = 0.005
     LR_GIMG = 0.001
     LR_GTXT = 0.001
-    # loss = 1 * loss1 + 1 * loss2 + 1 * loss3 + 1 * loss4 + 1 * loss5 + 1 * loss6 + 2 * loss7 + 0.1 * loss31 + 0.1 * loss32
+ 
     EVAL_INTERVAL = 1
 
 if DATASET == 'NUSWIDE':
     LABEL_DIR = '/media/qd/copy/zyc/00/NUS-WIDE-TC10/nus-wide-tc10-lall.mat'
     TXT_DIR = '/media/qd/copy/zyc/00/NUS-WIDE-TC10/nus-wide-tc10-yall.mat'
     IMG_DIR = '/media/qd/copy/zyc/00/NUS-WIDE-TC10/nus-wide-tc10-iall.mat'
-    # NUM_EPOCH = 150
+
     NUM_EPOCH = 50
     LR_IMG = 0.005
     LR_TXT = 0.005
